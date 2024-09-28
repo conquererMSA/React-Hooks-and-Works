@@ -31,4 +31,6 @@ React Hooks and Their Works
     
     })
 ekhane ref asole child componet er reference za useRef diye create kora hoyeche. props. contextApi, reducer, redux chrao useImperativeandle hook er maddhyome child er kuno kichu parent directly access korte pare.
+
+useLayoutEffect: DOM vailable/update howar por, kintu re-painting er age zodi DOM e kuno poriporton (focus, backroundChange, text change etc) korte hoy tokhon useLayoutEffect use kora hoy. useLayoutEffect er structure useEffect er moto. useLayoutEffect ekta callback function and ekta dependency array ney. useLayoutEffect synchronously exicute hoy, onnodike useEffect dom update and repainting howyar por asynchronously exicute hoy.
 */
