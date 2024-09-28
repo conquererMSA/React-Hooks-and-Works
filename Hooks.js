@@ -22,4 +22,13 @@ React Hooks and Their Works
 
 
  useInsertionEffect: DOM element e dynamic vabe style/css apply korar jonno useInsertionEffect use kora hoy. useInsertionEffect er structure useEffect er motoi. useInsertionEffect component render er protomei syncrhonously run hoy.
+
+
+ useImperativeHandle: DOM level e parentComponent theke zodi childComponent er kuno function/procedure acces korte hoy tahole useImperativeHanlde hook use kora hoy. useImperativeHandle(ref, ()=>{
+    function 1()=>{}
+    
+    function 2()=>{}
+    
+    })
+ekhane ref asole child componet er reference za useRef diye create kora hoyeche. props. contextApi, reducer, redux chrao useImperativeandle hook er maddhyome child er kuno kichu parent directly access korte pare.
 */
