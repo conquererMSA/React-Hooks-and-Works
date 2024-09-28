@@ -14,4 +14,10 @@ React Hooks and Their Works
  useTransition: useTransition kuno ekta state update priority differ korte use kora hoy. Ekit component er state update priority beshi thake. Component er kuno ekta state update fast and onnoti slow hole, slow state update er jonno fast er rendering atke thake. Kintu react by default duti state update ke batch korte cay.
  const [isPending, startTransitio]=useTransition();
  component er slow update zate fast update ke atke na rakhe (batch update er jonno) se jonno startTransition er callback function er moddhye slow state update code likha hoy. slow stae update shuru-shesh porzonto isPending true and slow state update shesh hole isPending false hoy.
+
+
+ useDifferedValue: state update delay korar jonno useDifferedValue use kora hoy. Debounce er alternative hisabe defferedValue use kora zate pare.
+ const [name, setName]=useState("");
+ const diffedName=useDifferedValue(name);
+ 
 */
