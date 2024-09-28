@@ -19,5 +19,7 @@ React Hooks and Their Works
  useDifferedValue: state update delay korar jonno useDifferedValue use kora hoy. Debounce er alternative hisabe defferedValue use kora zate pare.
  const [name, setName]=useState("");
  const diffedName=useDifferedValue(name);
- 
+
+
+ useInsertionEffect: DOM element e dynamic vabe style/css apply korar jonno useInsertionEffect use kora hoy. useInsertionEffect er structure useEffect er motoi. useInsertionEffect component render er protomei syncrhonously run hoy.
 */
